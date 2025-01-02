@@ -10,7 +10,7 @@ const Hero = () => {
                 <div
                     className='flex flex-col items-center text-gray-800 rounded-2xl h-auto w-full md:w-1/2 z-10 px-6 md:px-12'>
 
-                    <h3 className='text-4xl capitalize mb-8 mx-auto items-center flex'>
+                    <h3 className='text-4xl capitalize mb-8 mx-auto items-center flex rounded-lg bg-blue-100 px-4 py-4'>
                     electrical installations, repairs and testing
                 </h3>
                     <p className='text-xl mb-8 max-w-xl'>

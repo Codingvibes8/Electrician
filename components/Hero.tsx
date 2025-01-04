@@ -1,30 +1,33 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { MdOutlinePhone, MdOutlineEmail } from 'react-icons/md'
+import {MdOutlinePhone, MdOutlineEmail, MdElectricBolt} from 'react-icons/md'
 
 const Hero = () => {
     return (
-        <section className="max-w-[1536px] min-h-screen mx-auto bg-blue-100 px-10 py-20">
+        <section className="max-w-[1536px] min-h-screen mx-auto px-10 py-20">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+                <div className="flex-1 flex flex-col">
+                    <div className="flex items-center gap-2">
+                        <h1 className="text-[30px] md:text-4xl  font-bold text-gray-800 leading-tight max-w-md">
+                            ElectricJames
+                        </h1>
+                        <span>
+                        <MdElectricBolt className="w-12 h-12 text-red-900 rounded-full bg-gray-300"/>
+                    </span>
+                    </div>
 
 
-        <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-                <div className="flex-1 mt-6 flex flex-col">
-                    <h1 className="text-[30px] md:text-4xl  font-bold text-gray-800 leading-tight max-w-md">
-                        Expert Electrical Services
-                    </h1>
-
-                    <h3 className='text-[24px] md:text-4xl capitalize rounded-lg px-4 py-4 text-gray-700'>
-                        Electrical installations, repairs and testing
+                    <h3 className='text-[20px] font-semibold  md:text-4xl capitalize rounded-lg px-4 py-4 text-gray-700'>
+                        Electrical services for residential and commercial properties
                     </h3>
 
                     <p className='text-[20px] mb-4 md:text-xl max-w-xl text-gray-700'>
-                        Trusted, reliable electrician in Cricklewood, NW2. Fully qualified 18th edition and Part P
-                        certified covers north London and environs
+                        ElectricJames is a trusted, reliable electrician in Cricklewood, NW2. Fully qualified 18th edition and Part P
+                        certified
                     </p>
 
-                    <p className='text-lg md:text-xl max-w-xl text-gray-700 mb-2'>
-                        I provide top-notch electrical services for residential and commercial properties.
+                    <p className='text-[1rem] md:text-xl max-w-xl text-gray-700 mb-2'>
+                        Covers north London and environs
                     </p>
                     <p className='text-lg md:text-xl max-w-xl text-gray-700 mb-2'>
                         Your safety and satisfaction are my top priority.
@@ -45,7 +48,6 @@ const Hero = () => {
                         Get a Free Quote
                     </Link>
                 </div>
-
                 <div className="flex-1 w-full max-w-lg">
                     <Image
                         src='/fuse-box1.jpg'
@@ -56,11 +58,8 @@ const Hero = () => {
                     />
                 </div>
             </div>
-        </div>
         </section>
-    )
-}
-
+    )}
 export default Hero
 
 

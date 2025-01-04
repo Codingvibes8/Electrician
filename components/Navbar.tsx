@@ -42,7 +42,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center justify-center">
           <div className="flex items-center justify-center space-x-1 z-10">
             <span>
-              <MdElectricBolt className="w-8 h-8 text-red-900 rounded-full bg-white  p-[2px]" />
+              <MdElectricBolt className="w-10 h-10 text-red-900 rounded-full bg-gray-300  p-[2px]" />
             </span>
             <span
               className="text-white text-3xl font-bold font-serif leading-none" >

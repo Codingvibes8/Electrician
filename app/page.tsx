@@ -1,15 +1,23 @@
 
-import Hero from '@/components/Hero'
-import About from './about'
-import Services from "@/app/services/page";
-export default function Home() {
-  return (
-   <div className="flex flex-col items-center justify-center h-screen">
-   <Hero/>
-       <About/>
-       <Services/>
-       <Contact/>
-       <Footer/>
-   </div>
-  )
+import React from "react"
+import Layout from "../components/Layout"
+import Hero from "../components/Hero"
+import About from "./about/page"
+import Services from "./services/page"
+import Contact from "./contact/page"
+
+
+
+const Home: React.FC = () => {
+    return (
+        <Layout>
+            <Hero />
+            <About />
+            <Services />
+            <Contact />
+        </Layout>
+    )
 }
+
+export default Home
+

@@ -4,7 +4,7 @@ import { servicePageItems } from "@/constants/constants";
 
 export default function Services() {
     return (
-        <section className={'max-w-[1536px] mx-auto bg-gray-300 px-4 md:px-8 py-16 z-10'}>
+        <section className={'max-w-[1536px] mx-auto px-8 sm:px-16 lg:px-28 bg-gray-50 py-16 z-10'}>
             <div className="flex flex-col text-gray-700 [&>p]:md:max-w-[75ch] [&>p]:mx-auto">
                 <h1 className="text-4xl md:text-6xl font-bold mb-10 text-center">
                     Electrical Services

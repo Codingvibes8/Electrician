@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const Contact = () => {
     return (
-        <section className="bg-gray-300 py-12 mb-12 max-w-[1536px] mx-auto">
+        <section className="py-12  px-8 sm:px-16 lg:px-28 bg-gray-50 mb-12 max-w-[1536px] mx-auto">
             <div className="w-full mx-auto px-4 text-center">
                 <h2 className="text-4xl md:text-6xl font-bold mb-10 text-center">Contact</h2>
-                <h3 className="text-2xl mb-6">James O’Neill Trading as Electric James</h3>
-                <address>Galsworthy Road Cricklewood London NW2 2SH</address>
-                <p className="text-xl text-black mb-4">020 3662 3589 or 078 2544 7057 hello@electricjames.com</p>
+                <h3 className="text-2xl mb-6">PowerhouseElectrics</h3>
+                <address>Ralsworby Road Cricklewood London NW2 2kH</address>
+                <p className="text-xl text-black mb-4">020 3762 3589 or 078 2774 5437 hello@PowerhouseElectrics.com</p>
             </div>
 
             <div className=" p-8 w-full flex flex-col items-center justify-center">
@@ -106,13 +106,13 @@ const Contact = () => {
 
             <div className="flex items-center justify-center gap-6 mt-6 mb-6">
             <Link href={'/which.com'}>
-                <Image src="/img.png" height={70} width={70} alt=""/>
+                <Image src="/img.png" height={50} width={50} alt=""/>
             </Link>
                 <Link href={'/napit.com'}>
-                    <Image src="/img_1.png" height={70} width={70} alt=""/>
+                    <Image src="/img_1.png" height={50} width={50} alt=""/>
                 </Link>
                 <Link href={'/facebook.com'}>
-                    <Image src="/facebook.svg" height={70} width={70} alt=""/>
+                    <Image src="/facebook.svg" height={50} width={50} alt=""/>
                 </Link>
             </div>
 

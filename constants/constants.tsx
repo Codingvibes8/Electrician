@@ -1,11 +1,11 @@
-import { HousePlus, Bolt, ContactRound, CircleUserRound } from "lucide-react";
+import { Home, Bolt, ContactRound, CircleUserRound } from "lucide-react";
 
 
 export const NavItems = [
     {
         label: "Home",
         link: "/",
-        icon: HousePlus,
+        icon: Home,
     },
     {
         label: "About",

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 
-const ContactSection = () => {
+const Contact = () => {
     return (
         <section className="bg-gray-300 py-12 mb-12 max-w-[1536px] mx-auto">
             <div className="w-full mx-auto px-4 text-center">
@@ -122,4 +122,4 @@ const ContactSection = () => {
     );
 };
 
-export default ContactSection;
+export default Contact;
